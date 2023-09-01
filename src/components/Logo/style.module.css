@@ -1,0 +1,41 @@
+.logo_container {
+  position: relative;
+}
+
+.logo_title {
+  color: rgb(63, 22, 58);
+  font-weight: 800;
+  font-size: 37px;
+}
+
+.span_logo {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  padding-top: 5px;
+}
+
+.span_logo svg {
+  animation: basketMoved 3s linear 1;
+}
+
+@keyframes basketMoved {
+  from {
+    transform: translateX(0);
+    -webkit-transform: translateX( 0);
+    -o-transform: translateX( 0);
+    -moz-transform: translateX( 0);
+  }
+  50% {
+    transform: translate(165px, 0);
+    -webkit-transform: translate(165px, 0);
+    -o-transform: translate(165px, 0);
+    -moz-transform: translate(165px, 0);
+  }
+  to {
+    transform: translateX(0);
+    -webkit-transform: translateX( 0);
+    -o-transform: translateX( 0);
+    -moz-transform: translateX( 0);
+  }
+}

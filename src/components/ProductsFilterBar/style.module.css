@@ -1,0 +1,26 @@
+.container {
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: fit-content;
+  display: flex;
+  gap: 20px;
+  flex-direction: row; 
+
+}
+
+.container input,
+select {
+  background: #f6cfe8;
+  box-shadow: inset 4px 4px 4px #bd6da1,
+    inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+}
+.container input {
+  padding: 10px 20px;
+  width: 60%;
+}
+
+select {
+  width: 40%;
+}

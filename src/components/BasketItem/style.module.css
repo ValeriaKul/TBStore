@@ -1,0 +1,74 @@
+.item_descr {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 250px 70px 70px 70px;
+  grid-template-rows: 80px 80px;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.basket_container {
+  display: grid;
+  grid-template-columns: 250px auto;
+  max-width: 800px;
+  background: #ffffff;
+  box-shadow: 4px 4px 47px #ab5e90;
+  border-radius: 20px;
+  height: 250px;
+}
+.img_container {
+  height: 250px;
+  width: auto;
+  display: flex; /* устанавливаем режим отображения flex */
+  justify-content: center; /* выравниваем контент по горизонтали по центру */
+  align-items: center; 
+}
+
+.img_item {
+  height: 100%;
+  padding: 10px;
+  object-fit: object-fit;
+}
+
+.ring {
+  width: 20px;
+  height: 20px;
+  background: rgb(113, 114, 116);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.btn {
+    color: #ab5e90;
+    font-size: 26px;
+    margin: auto;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.grey_style{
+    color: rgb(44, 44, 44);
+}
+.select_basket{
+    min-width: 50px;
+    background-color:#ffffff;
+}
+
+.filters {
+ display: flex;
+ gap: 50px;
+}
+
+.wrap {
+  text-align: center;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

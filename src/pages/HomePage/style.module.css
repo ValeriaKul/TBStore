@@ -1,0 +1,132 @@
+h1 {
+  font-family: "Poller One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 85px;
+  color: whitesmoke;
+}
+
+.page {
+  height: 100vh;
+  min-width: 1270px;
+  background: linear-gradient(
+    180.52deg,
+    #fa90d6 -9.05%,
+    rgba(96, 26, 73, 0.83) 107.41%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  /* height: 100vh; */
+  margin: auto 10vw;
+}
+
+.text_container {
+  max-width: 450px;
+}
+
+.wripper {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  width: 50%;
+}
+
+.img_girl {
+  max-width: 575px;
+  max-height: 575px;
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 50%;
+  border: 2px solid white; 
+
+}
+
+.text,
+.btn_shopNow {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+
+.btn_shopNow {
+  width: 275px;
+  height: 63px;
+  background: linear-gradient(
+    180.52deg,
+    #fa90d6 -9.05%,
+    rgba(96, 26, 73, 0.83) 107.41%
+  );
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+
+.animated_text {
+  opacity: 0; /* Устанавливаем начальное значение непрозрачности в 0 */
+  animation-name: fade-in; /* Указываем имя анимации */
+  animation-duration: 2s; /* Устанавливаем длительность анимации */
+  animation-fill-mode: forwards; /* Сохраняем состояние анимации после ее завершения */
+}
+
+.text {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in-block2;
+  animation-delay: 1s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in-block2 {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.img_curlyLine {
+  position: relative;
+  bottom: 25%;
+  left: 50%;
+  height: 100px;
+  width: 600px;
+}
+
+.img_arrows {
+  position: relative;
+  width: 130px;
+height: 35.18px;
+left: 83%;
+bottom: 30%;
+}

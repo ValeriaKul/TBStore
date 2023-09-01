@@ -1,0 +1,12 @@
+.btn_login {
+  border-radius: 16px;
+  color: rgb(246, 245, 246);
+  font-weight: 600;
+  border: 2px solid white;
+  font-size: 26px;
+  cursor: pointer;
+  background: #910362;
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.25),
+    inset 4px 4px 4px #ba6b9f;
+  border-radius: 20px;
+}

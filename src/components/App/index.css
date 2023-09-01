@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Amatic SC", cursive;
+  font-family: "Cardo", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  min-height: 100vh;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.pages {
+  background: linear-gradient(
+    180.52deg,
+    #fa90d6 -9.05%,
+    rgba(96, 26, 73, 0.83) 107.41%
+  );
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+

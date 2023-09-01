@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 40%;
+    margin: 30px auto;
+    align-items: start;
+    /* justify-items: center; */
+}
+
+.basket_items {
+    display: grid;
+    gap: 30px;
+    margin: 10px;
+    justify-content: end;
+}
+
+.no_items {
+    font-size: 22px;
+    margin: 0 auto;
+} 
