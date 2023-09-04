@@ -1,5 +1,0 @@
-Макет 
-https://www.figma.com/file/Rn3s2F8VGncbkpEx2JRKnJ/main-project?node-id=0%3A1&t=KsEY5kTPlu6pUnlW-0
-
-API
-https://fakestoreapi.com/
