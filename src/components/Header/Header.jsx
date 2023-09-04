@@ -8,7 +8,6 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { MdOutlineManageSearch } from 'react-icons/md';
 import { BiCategory, BiCart } from 'react-icons/bi';
 import MobileNavLink from "../MobileNavLink/MobileNavLink";
-import { NavLink } from "react-router-dom";
 
 export default function Header({ styleComp }) {
   const { basket, products } = useSelector((state) => state);

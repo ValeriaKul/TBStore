@@ -4,7 +4,6 @@
     grid-template-columns: 1fr 40%;
     margin: 30px auto;
     align-items: start;
-    /* justify-items: center; */
 }
 
 .basket_items {
@@ -17,4 +16,25 @@
 .no_items {
     font-size: 22px;
     margin: 0 auto;
-} 
+    display: flex; /* Для выравнивания содержимого по центру */
+    align-items: center; /* По вертикали */
+    justify-content: center; /* По горизонтали */
+    opacity: 0; /* начальное состояние анимации */
+    animation: fadeIn 1s forwards; /* имя анимации, продолжительность, направление */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Мобильная версия */
+@media only screen and (max-width: 1222px) {
+    .container {
+        grid-template-columns: 1fr; /* Один столбец */
+    }
+    .basket_items{
+        justify-content: center;
+    }
+}

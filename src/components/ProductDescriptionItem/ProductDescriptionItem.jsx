@@ -26,7 +26,7 @@ export default function ProductDescriptionItem({
         <div className={s.img_slidebar}>
           {images.map((image, index) => (
             <img
-              key={image.id}
+              key={index}
               className={imgIndex === index ? s.active : ''}
               src={image}
               alt={title}

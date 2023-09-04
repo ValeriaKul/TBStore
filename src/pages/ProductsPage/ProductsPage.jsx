@@ -11,7 +11,6 @@ import s from "./style.module.css";
 export default function ProductsPage() {
   const dispatch = useDispatch();
   const { category } = useParams();
-  console.log(category);
   const products = useSelector(({ products }) => {
     if (category === undefined) {
       return products;
@@ -21,6 +20,7 @@ export default function ProductsPage() {
   });
   useEffect(() => {
     dispatch(productsResetFilter());
+    // eslint-disable-next-line
   }, []);
 
   return (

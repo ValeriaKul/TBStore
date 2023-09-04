@@ -34,7 +34,7 @@ export default function Footer() {
           </a>
         </div>
         <form className={s.btn_submit}>
-          <input type="email" placeholder=" Enter your email" />
+          <input id="input" type="email" placeholder=" Enter your email" />
           <button className={s.btn}>submit</button>
         </form>
       </div>

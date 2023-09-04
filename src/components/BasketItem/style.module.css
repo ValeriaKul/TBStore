@@ -27,7 +27,8 @@
 .img_item {
   height: 100%;
   padding: 10px;
-  object-fit: object-fit;
+  width: 100%;
+  object-fit: contain;
 }
 
 .ring {
@@ -71,4 +72,54 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 773px) {
+  .basket_container {
+      grid-template-columns: 150px auto; 
+      max-width: 100%; /* позволим контейнеру занимать всю ширину */
+      height: auto; 
+  }
+
+  .img_container {
+      height: 150px; /* уменьшаем высоту контейнера изображения */
+  }
+
+  .item_descr {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto; 
+      padding: 10px 10px; 
+  }
+
+  .img_item {
+      height: 100%;
+      padding: 5px;
+      width: 100%;
+      border-radius: 20px;
+      object-fit: cover; /* изменим на cover для лучшего отображения */
+  }
+
+  .filters {
+      flex-direction: column; /* делаем элементы один под другим */
+      gap: 10px; /* уменьшаем расстояние между элементами */
+  }
+  .wrap p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .basket_container {
+      grid-template-columns: 100px auto; 
+  }
+
+  .img_container {
+      height: 100%; 
+  }
+  .title{
+    font-size: 14px;
+  }
+  .wrap p {
+    font-size: 12px;
+  }
 }

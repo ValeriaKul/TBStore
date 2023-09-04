@@ -18,6 +18,7 @@ const dispatch = useDispatch();
   useEffect(()=>{
     dispatch(asyncLoadCategoriesAction);
     dispatch(asyncLoadProductsAction);
+    // eslint-disable-next-line
   },[])
   return (
     <>

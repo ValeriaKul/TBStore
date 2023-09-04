@@ -35,7 +35,7 @@ export default function ProductsFilterBar() {
         <option value="ascend">Ascending price</option>
         <option value="descen">Descending price</option>
       </select>
-      <select name="price" id="select price" onChange={sortTitleOnChange}>
+      <select name="price" id="select price title" onChange={sortTitleOnChange}>
         <option value="">Title: </option>
         <option value="ascend">Ascending title</option>
         <option value="descen">Descending title</option>
