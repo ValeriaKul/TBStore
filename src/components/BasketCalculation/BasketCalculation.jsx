@@ -47,7 +47,7 @@ export default function BasketCalculation() {
         <b>{data.reduce((a, { count }) => a + count, 0)} items </b>
       </p>
       <p>
-        TOTAL PRICE: <b>{data.reduce((a, b) => a + b.price * b.count, 0)} $</b>
+        TOTAL PRICE: <b>{(data.reduce((a, b) => a + (b.price - (b.price * b.discountPercentage) / 100) * b.count, 0).toFixed(2))} $</b>
       </p>
       <div className={s.btn_checkout}>
         <p>CHECKOUT</p>
