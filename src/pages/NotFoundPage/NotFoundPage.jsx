@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-// import { Link } from 'react-router-dom';
 import s from "./style.module.css";
 import img1 from "./curlyLine.png";
 import img2 from "./arrows.png";
