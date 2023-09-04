@@ -11,9 +11,7 @@ export default function Footer() {
       <div className={["logo", "item"].join(" ")}>
         <Logo />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          nostrum aperiam aspernatur qui architecto voluptate quasi corrupti
-          repudiandae iure magni.{" "}
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         </p>
       </div>
       <div className={["contact_us", "item"].join(" ")}>

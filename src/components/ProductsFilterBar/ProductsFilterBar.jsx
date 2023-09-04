@@ -31,12 +31,12 @@ export default function ProductsFilterBar() {
         onChange={searchOnChange}
       />
       <select name="price" id="select price" onChange={sortPriceOnChange}>
-        <option value="">Sort by price: </option>
+        <option value="">Price: </option>
         <option value="ascend">Ascending price</option>
         <option value="descen">Descending price</option>
       </select>
       <select name="price" id="select price" onChange={sortTitleOnChange}>
-        <option value="">Sort by title: </option>
+        <option value="">Title: </option>
         <option value="ascend">Ascending title</option>
         <option value="descen">Descending title</option>
       </select>

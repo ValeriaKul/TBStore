@@ -14,5 +14,19 @@
 .text {
   font-size: 22px;
   text-align: center;
+}
 
+@media only screen and (max-width: 768px) {
+  .par {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .par,
+  .text {
+    display: none;
+  }
 }

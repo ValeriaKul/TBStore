@@ -16,8 +16,7 @@ export default function HomePage() {
         <div className={s.wripper}>
           <h1 className={s.animated_text}>
             The Best Store To
-            <br /> Shop Online
-            <br />
+            Shop Online
             ALL IN ONE
           </h1>
           <div className={s.text_container}>

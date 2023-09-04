@@ -1,9 +1,10 @@
 .container {
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 0 auto;
   gap: 40px;
   display: grid;
   grid-template-columns: 350px 1fr;
+  padding: 40px 20px;
 }
 
 .rating_and_price {
@@ -26,12 +27,9 @@
 }
 
 .descr_item {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  justify-content: space-between;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  gap: 15px;
+  grid-template-rows: auto ;
 }
 
 .title {
@@ -92,7 +90,7 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 50px;
   gap: 10px;
-  
+  height: 100px;
 }
 
 .img_slidebar img{
@@ -109,6 +107,20 @@
   box-shadow: rgba(3, 3, 3, 0.24) 0px 3px 8px;
 }
 
+@media only screen and (max-width: 677px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 150px; */
+    gap: 5px;
+    
+  }
+  
+  .img_container {
+    grid-template-rows: 1fr 50px;
+    height: fit-content;
+  }
+}
 
 
 

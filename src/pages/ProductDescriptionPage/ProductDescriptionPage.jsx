@@ -37,7 +37,7 @@ export default function ProductDescriptionPage() {
       )}
 
       <div className={s.offers}>
-        <h2>CUSTOMERS ALSO LIKE</h2>
+        <p className={s.category_title}>CUSTOMERS ALSO LIKE</p>
         <div className={s.container_offers}>
           {allProductsInCategory
           .sort((a,b) => b.rating - a.rating)
@@ -45,7 +45,7 @@ export default function ProductDescriptionPage() {
         </div>
       </div>
       <div className={s.recommends}>
-        <h2>Recommended</h2>
+        <p className={s.category_title}>Recommended</p>
         <div className={s.container_offers}>
           {fiveBestProducts
           .sort((a,b) => a.price - b.price)
